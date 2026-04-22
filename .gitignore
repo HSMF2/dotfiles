@@ -1,0 +1,58 @@
+# Local editor and OS metadata
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.asc
+
+# Shell/runtime histories and local machine state
+.*_history
+.bash_history
+.zsh_history
+.python_history
+.sqlite_history
+.lesshst
+.wget-hsts
+.sudo_as_admin_successful
+
+# SSH, GPG, cloud, and tool credentials
+.ssh/
+.gnupg/
+.aws/
+.azure/
+.config/gcloud/
+.config/rclone/
+.config/shell/private-aliases.sh
+.docker/config.json
+.netrc
+
+# Codex/agent local state
+.codex
+.codex/
+.agents/cache/
+
+# Package/dependency caches
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.cache/
+
+# Build and temporary output
+dist/
+build/
+out/
+tmp/
+temp/
+*.log

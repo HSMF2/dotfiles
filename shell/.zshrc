@@ -87,6 +87,8 @@ alias gl='lazygit'
 alias claer='clear'
 alias p='dc px'
 alias x='dc wi'
+alias m='dc model'
+alias wp='dc pilot'
 
 [ -f "$HOME/.config/shell/private-aliases.sh" ] && . "$HOME/.config/shell/private-aliases.sh"
 
